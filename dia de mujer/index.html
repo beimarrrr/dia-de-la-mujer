@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Mi Amor</title>
+
+<style>
+
+body{
+    background:#fdf4f7;
+    font-family: Georgia, serif;
+    text-align:center;
+    padding:40px;
+}
+
+h1{
+    font-size:42px;
+    font-style:italic;
+}
+
+h2{
+    font-size:22px;
+    color:#444;
+}
+
+p{
+    font-size:18px;
+    max-width:420px;
+    margin:auto;
+    line-height:1.6;
+}
+
+.dibujo{
+    font-size:90px;
+    margin:20px;
+}
+
+button{
+    margin-top:40px;
+    padding:14px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:30px;
+    background:#ff4da6;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e60073;
+}
+
+#video{
+    display:none;
+    margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>feliz 8 de Marzo...</h1>
+
+<h2>Para la mujer que amo 💗</h2>
+
+<div class="dibujo">
+ <img src="amo.jpg" alt="100" width="200">
+</div>
+
+<p>
+Hoy no solo se celebra el día de la mujer,
+hoy celebro tener a una mujer increíble
+en mi vida.  
+
+Gracias por tu amor, tu fuerza y tu forma
+de hacer mi mundo más bonito.  
+
+Feliz 8 de marzo mi amor 💗
+</p>
+
+<button onclick="mostrarVideo()">videito</button>
+
+<div id="video">
+
+<br>
+
+<iframe width="300" height="200"
+src="bb.mp4"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+
+<script>
+
+function mostrarVideo(){
+document.getElementById("video").style.display="block";
+}
+
+</script>
+
+</body>
+</html>
